@@ -248,8 +248,6 @@ width:400px;
   .rev img{
     border-radius: 10%;
     align-items:end;
-    height: fit-content;
-    width: fit-content;
   }
   .importance{
     border: 2px solid #f60;

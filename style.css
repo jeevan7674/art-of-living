@@ -1,0 +1,253 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+h1 {
+    margin-right: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+ font-size: large;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.search{
+    text-align:center;
+    margin-top: 20px;
+    text-align-last: right;
+
+}
+input[type=text]{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border: radius 5px; ;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: color #45a049;
+   }
+   .logo img {
+    width: 150px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust spacing */
+   }
+   .title{
+    font-size:x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font: bolder;
+   }
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-container > div {
+    width: 10%;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .comment-section p {
+    font-size: 14px;
+  }
+  .quick-links{
+    margin-left: 20px;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+  }
+  .socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:whitesmoke;
+    margin: 20px;
+    border-radius: 100%;
+    color: black;
+  }
+  .section-with-video {
+    position: relative;
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .section-with-video .video-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .section-with-video #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .section-with-video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+  }
+  
+  /* Additional styling for text */
+  .section-with-video h1 {
+    font-size: 3rem;
+  }
+  
+  .section-with-video p {
+    font-size: 1.5rem;
+  }
+   .search-bar{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+   }
+   .blogs{
+    background-color: #c0c0c0;
+   }
+
+
+   .blogs{padding:1%;
+    background-color: beige;}
+  .blogs{
+    padding: 20px;
+    
+  }
+  
+  .title h2{
+    font-family: poppins
+    
+  }
+  .title {
+    padding: 30px;;
+    
+  }
+  .medi-content{
+    margin: 20px;
+  }
+  .medi-item{
+    cursor:pointer;
+  }
+  
+  .yoga-content{
+    margin:10px;
+    gap: 30px;
+  }
+  .yoga-item{
+    cursor:pointer;
+  }
+  .medi-content{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .yoga-content{
+    display:flex;
+    gap:30px;
+    flex-wrap: wrap;
+    
+    
+  }
+  
+ .yoga img{ border-radius: 8%;
+    border-color: white;
+height:400px;
+width:400px;
+   }
+  .heading{
+    font-size: larger;
+  }
+
+   
+     .review{scroll-padding-right: 50%;
+   background-position: 50%;
+   border-radius: 10%;
+   margin-left: 2%;
+   font-size: larger;
+  
+  }
+  .yoga-content{
+    color: black;
+    text-decoration: none;
+  }
+  .reviews{
+    display: flex;
+    flex-wrap:wrap;
+    border-radius:10%;
+    
+
+  }
+  .rev img{
+    border-radius: 10%;
+    align-items:end;
+    height: fit-content;
+    width: fit-content;
+  }

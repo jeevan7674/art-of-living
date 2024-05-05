@@ -251,3 +251,10 @@ width:400px;
     height: fit-content;
     width: fit-content;
   }
+  .importance{
+    border: 2px solid #f60;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: rbga(255, 255, 255 ,0.8);
+  }
